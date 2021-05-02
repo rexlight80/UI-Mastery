@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+.heading {
+    background-color: #8d3daf;
+    margin-top: 0;
+    text-align: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+form {
+    border: 1px solid black;
+    margin: 50px auto;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input[type="text"],
+.password,
+.cpassword {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: lightgrey;
+    border: none;
+}
+
+input:focus {
+    background-color: white;
+    transition: all 0.8s linear;
+    outline-color: #8d3daf;
+}
+
+.signup {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #8d3daf;
+    color: white;
+    border-radius: 5px;
+}
+.signup:hover {
+    background-color: #6a1b4d;
+    transition: all 0.8s linear;
+}
+
+.agree {
+    width: 100%;
+    margin: 10px 0;
+}
